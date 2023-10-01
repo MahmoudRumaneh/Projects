@@ -1,0 +1,70 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+.sticky {
+    position: sticky;
+    top: 0;
+}
+.grid-cont{
+    Background-image: url(pictures/10.jpg) ;
+    position: relative;
+}
+.logo {
+	width: 200px;
+	margin-left: 61%;
+	margin-top: 1.5%;
+}
+.logout {
+	position: absolute;
+	top: 53%;
+	left: 0.9%;
+}  
+#logout {
+	padding: 5px 15px;
+	background-color: rgba(189, 124, 42, 0.7);
+	text-decoration: none;
+	color: black;
+	border-radius: 6px;
+	margin-right: 10px;
+}
+#logout:hover{
+    transition: 0.5s;
+    background-color: #ce6c01;
+    border-radius: 18px;
+}
+.header-section{
+    display: flex;
+}   
+.header-section ul {
+    display: flex;
+    list-style: none;
+    padding: 13px 4px;
+    justify-content: space-around;
+    background: #d1a369eb;
+}
+.list .links {
+    text-decoration: none;
+    color: black;
+    font-size: 17pt;
+}
+.links{
+    padding: 15px;
+}
+.txt{
+    font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.txt:hover{
+    transition: 0.5s;
+    background-color: #ce6c01;
+    border-radius: 18px;
+}
+@media (min-width:1024px ) and (max-width: 1280px){   
+    .header-section{
+        display: inherit;
+    }
+    .logo {
+        width: 200px;
+        margin-left: 70%;
+        margin-top: 1.5%;
+    }    
+}

@@ -1,0 +1,169 @@
+.cont {
+    margin: 20px 5px 0px 5px;
+}
+.best-selling-text{
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22;
+    color: #bd7c2a;
+}
+.best-selling-photos-container{
+    display: flex;
+    margin: 20px 0px 0px 0px;
+    /* grid-template-columns: auto auto auto auto; */
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.photo{
+    width: 250px;
+    size: 100%;
+}
+.photo-description{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    padding: 15px;
+}
+.btn{
+    background-color: #bd7c2a;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 6px;
+    width: 100px;
+    text-decoration: none;
+    padding: 4px 27px;
+}
+.btn:hover{
+    transition: 0.5s;
+    background-color: #ce6c01;
+    border-radius: 18px;
+}
+.customer-container{
+    margin: -28px 69px;
+    padding: 0% 0% 4% 5%;
+}
+.customer-feedback-text{
+    border-style: solid;
+    border-width:1px 1px;
+    border-radius: 6px;
+    color: #bd7c2a;
+    margin: 50px 500px 20px;
+    text-align: center;
+    background: white;
+    font-size: 22;
+    font-family: 'Varela Round', sans-serif;
+}
+.customer-feedback-photos-container {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.picture{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    color: #bd7c2a;
+    background-color: #F8F8FF;
+    width: 350px;
+}
+@media (max-width: 992px){
+    .cont {
+        margin: 10px 0px 0px 97px;
+    }
+    .best-selling-text{
+        display: block;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 22;
+        color: #bd7c2a;
+        margin: 0px 0px 0px 36px;
+    }
+    .best-selling-photos-container {
+        display: flex;
+        margin: 20px 0px 0px 0px;
+        flex-direction: column;
+    }
+    .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+    }
+    .photo{
+        width: 280px;
+        size: auto;
+    }
+    .photo-description {
+        text-align: center;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 22px;
+        padding: 15px;
+    }
+    .btn {
+        background-color: #bd7c2a;
+        border: none;
+        color: white;
+        padding: 10px 31px;
+        font-size: 16px;
+        position: inherit;
+        margin: 0px -46px 0px -43px;
+    }
+    .btn:hover{
+        transition: 0.5s;
+        background-color: #ce6c01;
+        border-radius: 18px;
+    }
+    .customer-container{
+        margin-right: 61px;
+    }
+    .customer-feedback-text {
+        display: flex;
+        border-style: solid;
+        border-width: 1px 1px;
+        border-radius: 6px;
+        color: #bd7c2a;
+        margin: 0px 57px 21px 57px;
+        text-align: center;
+        background: white;
+        font-size: 22;
+        font-family: 'Varela Round', sans-serif;
+        flex-flow: column;
+    }
+    .customer-feedback-photos-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        /*position: relative;*/
+    }
+    .picture{
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 6px;
+        color: #bd7c2a;
+        background-color: #F8F8FF;
+        width: 320px;
+        margin-bottom: 5px;
+    }
+}
+

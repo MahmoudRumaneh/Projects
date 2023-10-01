@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+.footer{
+    background: #F8F8FF;
+}
+.about-us {
+    border-style: solid;
+    border-width: 1px 1px;
+    border-radius: 6px;
+    color: #bd7c2a;
+    margin: 1% 42% 1% 44%;
+    text-align: center;
+    background: #F8F8FF;
+    font-size: 147%;
+    font-family: 'Varela Round', sans-serif;
+}
+.about-us:hover{
+    transition: 0.5s;
+    color: #ce6c01;
+    border-radius: 18px;
+}
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8FF;
+    padding: 0% 0% 1.5% 0%;;
+}
+.grid-item1 {
+	color: #bd7c2a;
+	font-weight: bold;
+	font-size: 19px;
+	font-family: 'Varela Round', sans-serif;
+	margin: 16px 0px 0px 122px;
+}
+h4:hover{
+    transition: 0.5s;
+    color: #ce6c01;
+}
+.grid-item2 {
+    color: #bd7c2a;
+    font-size: 119%;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin: -2% 0% 0% 77%;
+}
+.grid-item3 {
+    padding: 1% 0% 0% 1%;
+    /* font-size: 8%; */
+    font-family: 'Varela Round', sans-serif;
+    margin: 0% 0% 0% 7%;
+}
+.link {
+    border: none;
+    color: black;
+    background-color: #F8F8FF;
+    padding: 0% 0% 0.5%;
+    margin: 0% 0% 1%;
+    font-size: 103%;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.link:hover{
+    transition: 0.5s;
+    background-color: #ce6c01;
+    border-radius: 18px;
+}
+.grid-item5 {
+    color: black;
+    text-align: left;
+    font-size: 97%;
+    font-family: 'Indie Flower', cursive;
+    margin: -13% 0% 2% 53%;
+    background: #F8F8FF;
+}
+p {
+    margin: 2% 3% 0% 47%;
+}
+.fa fa-instagram, .fa fa-facebook, .fa fa-twitter{
+    background: #F8F8FF;
+    border: none;
+  } 
+  
+@media (max-width: 992px){   
+    .about-us {
+        margin: 5% 27% 4% 46%;
+        font-size: 107%;
+        padding: 0.5%;
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+    }
+    .grid-item1 {
+        /* font-size: 19px; */
+        margin: 1% 28% -1% -10%;
+        text-align: center;
+    }
+    .grid-item2 {
+        font-size: 19px;
+        margin: -4% 0% 0% -10%;
+        text-align: center;
+    }
+    .grid-item2 h4 {
+        margin: -1% 0% -2% 72%;
+        width: 0%;
+    }
+    .grid-item3 {
+        padding: 0%;
+        /* font-size: 105%; */
+        margin: 0% 35% 0% 0%;
+        text-align: center;
+    }
+    .grid-item5 {
+        text-align: center;
+        font-size: 97%;
+        margin: -21% 0% 0% 70%;
+    }
+    p {
+        margin: 0% 0% 2% -23%;
+    }
+    .logo1 {
+        width: 60%;
+        margin: 1% 11% 0% -29%;
+    }
+    }

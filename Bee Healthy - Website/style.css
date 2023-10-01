@@ -1,0 +1,53 @@
+.cont {
+    margin: 10px 25px;
+}
+.product-text{
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22;
+    color: #bd7c2a;
+}
+.product-photos-container{
+    display: flex;
+    margin: 20px 0px 0px 0px;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+    }
+.photo{
+    width: 20%;
+    size: auto;
+}
+.photo-description{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    padding: 15px;
+    font-weight: bold;
+}
+.btn{
+  background-color: #bd7c2a;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 6px;
+}
+.btn:hover{
+    transition: 0.5s;
+    background-color: #ce6c01;
+    border-radius: 18px;
+}
