@@ -1,0 +1,164 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+footer {
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding-top: 0.1em;
+}
+
+.footer h3 {
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 1em 0em 1em 0em;
+    color: white;
+}
+
+.us {
+    margin: 0em 13em;
+}
+
+p {
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: white;
+}
+
+.follow-us {
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: white;
+}
+
+.contact-us {
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    /* margin-bottom: 2em; */
+    padding-bottom: 2em;
+}
+
+@media (max-width:1046px) {
+    .us {
+        margin: 0em 9em;
+    }
+}
+
+@media (max-width:806px) {
+    .us {
+        margin: 0em 5em;
+    }
+}
+
+@media (max-width:526px) {
+    .us {
+        margin: 0em 2em;
+    }
+}

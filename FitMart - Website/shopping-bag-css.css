@@ -1,0 +1,514 @@
+/* Resetting styles for various elements */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+blockquote,
+pre,
+label,
+table,
+td,
+th,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Underline for shopping cart title */
+.cart h2 {
+    text-decoration: underline;
+}
+
+/* Main shopping container */
+.shopping {
+    margin: 2em 10em 0em 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Product item container */
+.product {
+    border: 1px solid silver;
+    border-radius: 0.8em;
+    display: flex;
+    margin: 0em 0em 1em 0em;
+}
+
+/* Heading styles */
+h3 {
+    word-wrap: break-word;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+/* Product photo */
+.product-photo img {
+    width: 200px;
+    padding: 1em 0em 1em 1em;
+}
+
+/* Hover effect on product photo */
+.product-photo img:hover {
+    transform: scale(1.04);
+}
+
+/* Product information */
+.product-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Product name */
+.product-name h3 {
+    padding: 1em 1em 1em 1em;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Full name style */
+.full-name {
+    font-size: 1.3em;
+    margin: 0.5em 0em 0em 0em;
+}
+
+/* Product price */
+.product-price h3 {
+    padding: 0em 0em 1em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Product quantity container */
+.product-quantity {
+    padding: 0em 0em 1em 1em;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Quantity buttons */
+.product-minus,
+.product-add {
+    margin: 0em 0.3em 0em 0.3em;
+    border: solid black 0.1em;
+    background-color: white;
+    border-radius: 0.8em;
+    margin-bottom: 1.1em;
+}
+
+/* Hover effect on quantity buttons */
+.product-minus:hover,
+.product-add:hover {
+    transition: 0.5s;
+    background-color: #FFD700;
+    border-radius: 0.9em;
+}
+
+/* Remove button style */
+.product-remove {
+    margin: 0em 0em 0em 35em;
+    width: 13em;
+    height: 2em;
+    color: black;
+    background-color: white;
+    border: 0.1em solid black;
+    border-radius: 0.8em;
+}
+
+/* Hover effect on remove button */
+.product-remove:hover {
+    transition: 0.5s;
+    background-color: #FFD700;
+    border-radius: 18px;
+}
+
+/* Font Awesome icon style */
+.fa {
+    margin: 5px;
+}
+
+/* Cart total container */
+.cart-total {
+    flex: 0.25;
+    margin-left: 11em;
+    padding: 1.25em;
+    border: 1px solid silver;
+    border-radius: 0.8em;
+    width: 50%;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cart total heading */
+.cart-total h3 {
+    margin: 0em 0em 1em 0em;
+}
+
+/* Checkout button style */
+.checkout {
+    width: 61%;
+    text-align: center;
+    margin: 1em 0em 0em 5em;
+    width: 26em;
+    height: 2.5em;
+    color: black;
+    background-color: white;
+    border: 0.1em solid black;
+    border-radius: 0.8em;
+    font-size: 0.7em;
+}
+
+/* Hover effect on checkout button */
+.checkout:hover {
+    transition: 0.5s;
+    background-color: #FFD700;
+    border-radius: 18px;
+}
+
+/* Media query for screens between 806px and 1046px */
+@media (max-width: 1046px) and (min-width: 807px) {
+    .shopping {
+        margin: 1em 0em 0em -4em;
+    }
+
+    /* Adjust product styles */
+    .product {
+        margin: 0em 0em 1em 5em;
+        width: 91%;
+    }
+
+    /* Adjust remove button position */
+    .product-remove {
+        margin: 0em 0em 0em 32em;
+    }
+
+    /* Adjust product price styles */
+    .product-price h3 {
+        padding: 0em 0em 1em 0.7em;
+    }
+
+    /* Adjust cart total container styles */
+    .cart-total {
+        margin-left: 12em;
+        width: 58%;
+        font-size: 1.3em;
+    }
+
+    /* Adjust checkout button styles */
+    .checkout {
+        width: 23em;
+        margin: 0em 0em 0em 11em;
+    }
+}
+
+/* Media query for screens between 526px and 806px */
+@media (max-width: 806px) and (min-width: 527px) {
+    .shopping {
+        margin: 1em 3em 0em 1em;
+    }
+
+    /* Adjust font size for heading */
+    h3 {
+        font-size: 1em;
+    }
+
+    /* Adjust product photo styles */
+    .product-photo img {
+        width: 150px;
+        padding: 1em 0em 1em 1em;
+        height: 150px;
+    }
+
+    /* Adjust product styles */
+    .product {
+        margin: 0em 0em 1em 2em;
+    }
+
+    /* Adjust product name styles */
+    .product-name h3 {
+        font-size: 1.1em;
+    }
+
+    /* Adjust full name styles */
+    .full-name {
+        font-size: 1.4em;
+        margin: 0.5em 0em 0em 0em;
+    }
+
+    /* Adjust product price styles */
+    .product-price h3 {
+        padding: 0em 0em 1em 0.7em;
+        font-size: 0.9em;
+    }
+
+    /* Adjust product quantity container styles */
+    .product-quantity {
+        padding: 0em 3em 1em 1em;
+        font-size: 1.1em;
+    }
+
+    /* Adjust product minus and add button styles */
+    .product-minus,
+    .product-add {
+        margin: 0em 0.3em 0em 0.3em;
+        border: solid black 0.1em;
+        background-color: white;
+        border-radius: 0.8em;
+        margin-bottom: 1.5em;
+    }
+
+    /* Adjust hover effect on quantity buttons */
+    .product-minus:hover,
+    .product-add:hover {
+        transition: 0.5s;
+        background-color: #FFD700;
+        border-radius: 0.9em;
+    }
+
+    /* Adjust remove button styles */
+    .product-remove {
+        margin: 0em 0em 0em 16em;
+        width: 10em;
+    }
+
+    /* Adjust hover effect on remove button */
+    .product-remove:hover {
+        transition: 0.5s;
+        background-color: #FFD700;
+        border-radius: 18px;
+    }
+
+    /* Adjust Font Awesome icon size */
+    .fa {
+        font-size: 0.8em;
+    }
+
+    /* Adjust "remove" text size */
+    .remove {
+        font-size: 0.8em;
+    }
+
+    /* Adjust cart total container styles */
+    .cart-total {
+        flex: 0.25;
+        margin-left: 6em;
+        padding: 1.25em;
+        height: 160px;
+        border: 1px solid silver;
+        border-radius: 0.8em;
+        width: 69%;
+        font-family: Arial;
+        font-size: 1.1em;
+    }
+}
+
+/* Media query for screens between 390px and 526px */
+@media (max-width: 526px) and (min-width: 391px) {
+    .shopping {
+        margin: 1em 1em 0em 1em;
+    }
+
+    /* Adjust font size for heading */
+    h3 {
+        font-size: 0.6em;
+    }
+
+    /* Adjust product photo styles */
+    .product-photo img {
+        width: 100px;
+        padding: 1em 0em 1em 1em;
+        height: 150px;
+    }
+
+    /* Adjust product name styles */
+    .product-name h3 {
+        font-size: 0.7em;
+    }
+
+    /* Adjust full name styles */
+    .full-name {
+        font-size: 1.4em;
+        margin: 0.5em 0em 0em 0em;
+    }
+
+    /* Adjust product price styles */
+    .product-price h3 {
+        padding: 0em 0em 1em 0.7em;
+        font-size: 0.9em;
+    }
+
+    /* Adjust product quantity container styles */
+    .product-quantity {
+        padding: 0em 3em 1em 1em;
+        font-size: 0.9em;
+        margin: 0em 0em 0em 0em;
+    }
+
+    /* Adjust product quantity heading size */
+    .product-quantity h3 {
+        font-size: 0.9em;
+        margin: 0em 0em 0em -0.3em;
+    }
+
+    /* Adjust product minus and add button styles */
+    .product-minus,
+    .product-add {
+        margin: 0em 0.3em 0em 0.3em;
+        border: solid black 0.1em;
+        background-color: white;
+        border-radius: 0.8em;
+        margin-bottom: 1.5em;
+    }
+
+    /* Adjust hover effect on quantity buttons */
+    .product-minus:hover,
+    .product-add:hover {
+        transition: 0.5s;
+        background-color: #FFD700;
+        border-radius: 0.9em;
+    }
+
+    /* Adjust remove button styles */
+    .product-remove {
+        margin: 0em 0em 0em 5em;
+        width: 6em;
+    }
+
+    /* Adjust hover effect on remove button */
+    .product-remove:hover {
+        transition: 0.5s;
+        background-color: #FFD700;
+        border-radius: 18px;
+    }
+
+    /* Adjust Font Awesome icon size */
+    .fa {
+        font-size: 0.8em;
+    }
+
+    /* Adjust "remove" text size */
+    .remove {
+        font-size: 0.8em;
+    }
+
+    /* Adjust cart total container styles */
+    .cart-total {
+        flex: 0.25;
+        margin-left: 3em;
+        padding: 1.25em;
+        height: 160px;
+        border: 1px solid silver;
+        border-radius: 0.8em;
+        width: 76%;
+        font-size: 0.9em;
+    }
+}
+
+/* Media query for screens smaller than 390px */
+@media (max-width: 390px) {
+    .shopping {
+        margin: 1em 2em 0em 1em;
+    }
+
+    .product {
+        margin: 0em -2em 1em -1em;
+    }
+
+    .product-photo img {
+        width: 100px;
+        padding: 1em 0em 1em 1em;
+        height: 150px;
+    }
+
+
+    .product-name h3 {
+        font-size: 0.7em;
+    }
+
+    /* Adjust full name styles */
+    .full-name {
+        font-size: 1.4em;
+        margin: 0.5em 0em 0em 0em;
+    }
+
+    /* Adjust product price styles */
+    .product-price h3 {
+        padding: 0em 0em 1em 0.7em;
+        font-size: 0.9em;
+    }
+
+    /* Adjust product quantity container styles */
+    .product-quantity {
+        padding: 0em 3em 1em 1em;
+        font-size: 0.9em;
+        margin: 0em 0em 0em 0em;
+    }
+
+    /* Adjust product quantity heading size */
+    .product-quantity h3 {
+        font-size: 0.9em;
+        margin: 0em 0em 0em -0.3em;
+    }
+
+    /* Adjust product minus and add button styles */
+    .product-minus,
+    .product-add {
+        margin: 0em 0.3em 0em 0.3em;
+        border: solid black 0.1em;
+        background-color: white;
+        border-radius: 0.8em;
+        margin-bottom: 1.5em;
+    }
+
+    /* Adjust remove button styles */
+    .product-remove {
+        margin: 0em 0em 0em 1em;
+        width: 9em;
+        font-size: 0.6em;
+        padding: 0em 1em 2em 0em;
+    }
+
+    /* Adjust checkout button width */
+    .checkout {
+        width: 20em;
+    }
+
+    .cart-total {
+        flex: 0.25;
+        margin-left: 0em;
+        padding: 1.25em;
+        height: 160px;
+        border: 1px solid silver;
+        border-radius: 0.8em;
+        width: 89%;
+        font-size: 0.9em;
+    }
+}
